@@ -1,0 +1,89 @@
+{
+  "metadata": "Shippo test webhook",
+  "event": "track_updated",
+  "data": {
+    "tracking_number": "SHIPPO_FAILURE",
+    "carrier": "shippo",
+    "servicelevel": {
+      "name": "Priority Mail",
+      "token": "shippo_priority"
+    },
+    "transaction": null,
+    "address_from": {
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94103",
+      "country": "US"
+    },
+    "address_to": {
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60611",
+      "country": "US"
+    },
+    "eta": "2021-11-16T16:31:15.803Z",
+    "original_eta": "2021-11-16T16:31:15.803Z",
+    "metadata": "Shippo test tracking",
+    "test": true,
+    "tracking_status": {
+      "status_date": "2021-11-11T12:07:19.899Z",
+      "status_details": "The Postal Service has identified a problem with the processing of this item and you should contact support to get further information.",
+      "location": {
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "37501",
+        "country": "US"
+      },
+      "substatus": null,
+      "object_created": "2021-11-11T12:07:19.899Z",
+      "object_updated": "2021-11-11T12:07:19.899Z",
+      "object_id": "d2c1c3025a994d79b74c7254ea2500c3",
+      "status": "FAILURE"
+    },
+    "tracking_history": [
+      {
+        "status_date": "2021-11-08T20:07:19.899Z",
+        "status_details": "The carrier has received the electronic shipment information.",
+        "location": null,
+        "substatus": null,
+        "object_created": "2021-11-08T20:07:19.899Z",
+        "object_updated": "2021-11-08T20:07:19.899Z",
+        "object_id": "8bffc6bc94ca4c448bc4f8264846b46a",
+        "status": "UNKNOWN"
+      },
+      {
+        "status_date": "2021-11-10T00:07:19.899Z",
+        "status_details": "Your shipment has departed from the origin.",
+        "location": {
+          "city": "San Francisco",
+          "state": "CA",
+          "zip": "94103",
+          "country": "US"
+        },
+        "substatus": null,
+        "object_created": "2021-11-10T00:07:19.899Z",
+        "object_updated": "2021-11-10T00:07:19.899Z",
+        "object_id": "6605fde411e44ea1944e23718433c9da",
+        "status": "TRANSIT"
+      },
+      {
+        "status_date": "2021-11-11T12:07:19.899Z",
+        "status_details": "The Postal Service has identified a problem with the processing of this item and you should contact support to get further information.",
+        "location": {
+          "city": "Memphis",
+          "state": "TN",
+          "zip": "37501",
+          "country": "US"
+        },
+        "substatus": null,
+        "object_created": "2021-11-11T12:07:19.899Z",
+        "object_updated": "2021-11-11T12:07:19.899Z",
+        "object_id": "d2c1c3025a994d79b74c7254ea2500c3",
+        "status": "FAILURE"
+      }
+    ],
+    "messages": []
+  },
+  "carrier": "shippo",
+  "test": true
+}

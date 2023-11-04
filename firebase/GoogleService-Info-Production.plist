@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>849605573456-dn37fkddqt3pf0d9gde3fvtrelt3cvgh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.849605573456-dn37fkddqt3pf0d9gde3fvtrelt3cvgh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCu5iZLSZOnbQug4MJES8__3t0xL1ASwQk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>849605573456</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.netsave.netsave</string>
+	<key>PROJECT_ID</key>
+	<string>netsave-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>netsave-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:849605573456:ios:fa5f0eca3b082b71eaca55</string>
+</dict>
+</plist>
